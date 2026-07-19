@@ -1,0 +1,21 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Keep lock file
+!.terraform.lock.hcl
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+
+# Logs
+*.log

@@ -1,0 +1,24 @@
+variable "project_name" {
+  type = string
+}
+
+variable "ami_id" {
+  type = string
+}
+
+variable "instance_type" {
+  type = string
+}
+
+
+variable "user_data" {
+  type = string
+}
+
+variable "iam_policy" {
+  type = string
+}
+
+variable "tags" {
+  type = map(string)
+}
