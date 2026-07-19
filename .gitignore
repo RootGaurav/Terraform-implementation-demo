@@ -7,7 +7,7 @@ override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
-
+*.pem
 # Keep lock file
 !.terraform.lock.hcl
 
